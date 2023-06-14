@@ -1,7 +1,5 @@
 # Diseño de controladores haciendo uso del lugar geométrico
 
-Para crear un manual de usuario para tu programa en formato IPython Notebook (extensión .ipynb), puedes seguir los siguientes pasos:
-
 ### Introducción
 Este programa ha sido diseñado para facilitar el proceso de diseño de controladores al proporcionar herramientas de análisis y visualización de sistemas de control.
 Con este programa, podrás ingresar una función de transferencia especificando sus parámetros y seleccionando un controlador P, I, PD, PI y PID. A partir de esta información, el programa te brindará una serie de resultados y gráficos que te ayudarán a comprender y optimizar el comportamiento de tu sistema de control.
@@ -30,7 +28,7 @@ Asegúrate de tener estas librerías instaladas en tu entorno de Python antes de
 
 ### Uso básico
 Para usar este programa sólo se debe de modificar la primera celde con los siguientes datos:
-- Función de transferencia, esta se tiene que ingresar en mediante el polinomia ya desarrollado tanto en el nominador como en el denominador. Ejemplo si tu función de transferencia es: ![image.png](attachment:image.png), entonces tu entrada tiene que ser de la siguiente manera: ![image-2.png](attachment:image-2.png).
+- Función de transferencia, esta se tiene que ingresar en mediante el polinomia ya desarrollado tanto en el nominador como en el denominador. Ejemplo si tu función de transferencia es: ![Alt text](image.png), entonces tu entrada tiene que ser de la siguiente manera: ![Alt text](image-1.png).
 - Máximo sobre pico expresado en porcentaje.Unicamente el valor numérico.
 - El tiempo de establecimiento expresado en segundos.Unicamente el valor numérico.
 - El controlador que se quiere implementar puede ser un controlador P, I, PD, PI o PID. Se tiene que escribir el nombre del controlador en mayusculas y dentro de los parentesis. 
