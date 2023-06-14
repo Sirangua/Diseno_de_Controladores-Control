@@ -1,8 +1,7 @@
 # Diseño de controladores haciendo uso del lugar geométrico
 
 ### Introducción
-Este programa ha sido diseñado para facilitar el proceso de diseño de controladores al proporcionar herramientas de análisis y visualización de sistemas de control.
-Con este programa, podrás ingresar una función de transferencia especificando sus parámetros y seleccionando un controlador P, I, PD, PI y PID. A partir de esta información, el programa te brindará una serie de resultados y gráficos que te ayudarán a comprender y optimizar el comportamiento de tu sistema de control.
+Este programa ha sido diseñado para facilitar el proceso de diseño de controladores al proporcionar herramientas de análisis y visualización de sistemas de control.Podrás ingresar una función de transferencia especificando sus parámetros y seleccionando un controlador P, I, PD, PI y PID. A partir de esta información, el programa te brindará una serie de resultados y gráficos que te ayudarán a comprender y optimizar el comportamiento de tu sistema de control.
 Las características principales de este programa incluyen:
 - Obtención de la respuesta del sistema: Podrás visualizar la respuesta del sistema sin ningún controlador aplicado, lo que te permitirá comprender su comportamiento inicial.
 - Lugar geométrico de la raíz: El programa generará el lugar geométrico de la raíz correspondiente a la función de transferencia antes y despues del controlador
@@ -27,10 +26,10 @@ Para utilizar este programa se necesitan las siguientes librerías de Python:
 Asegúrate de tener estas librerías instaladas en tu entorno de Python antes de ejecutar el programa. Puedes verificar su instalación importándolas en tu código y comprobando si hay errores.
 
 ### Uso básico
-Para usar este programa sólo se debe de modificar la primera celde con los siguientes datos:
+Para usar este programa sólo se debe de modificar la primera celda con los siguientes datos:
 - Función de transferencia, esta se tiene que ingresar en mediante el polinomia ya desarrollado tanto en el nominador como en el denominador. Ejemplo si tu función de transferencia es: ![Alt text](image.png), entonces tu entrada tiene que ser de la siguiente manera: ![Alt text](image-1.png).
-- Máximo sobre pico expresado en porcentaje.Unicamente el valor numérico.
-- El tiempo de establecimiento expresado en segundos.Unicamente el valor numérico.
+- Máximo sobre pico expresado en porcentaje. Únicamente el valor numérico.
+- El tiempo de establecimiento expresado en segundos. Únicamente el valor numérico.
 - El controlador que se quiere implementar puede ser un controlador P, I, PD, PI o PID. Se tiene que escribir el nombre del controlador en mayusculas y dentro de los parentesis. 
 Una vez que se han llenado estos valores es necesario únicamente hacer click en "Run All" para ejecutar todas las celdas y el programa se encargará de hacer los calculos necesarios mostrando graficas para su mejor entendimiento.
 
