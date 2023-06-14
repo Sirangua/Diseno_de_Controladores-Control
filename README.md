@@ -32,6 +32,7 @@ Para usar este programa sólo se debe de modificar la primera celde con los sigu
 - Máximo sobre pico expresado en porcentaje.Unicamente el valor numérico.
 - El tiempo de establecimiento expresado en segundos.Unicamente el valor numérico.
 - El controlador que se quiere implementar puede ser un controlador P, I, PD, PI o PID. Se tiene que escribir el nombre del controlador en mayusculas y dentro de los parentesis. 
+Una vez que se han llenado estos valores es necesario únicamente hacer click en "Run All" para ejecutar todas las celdas y el programa se encargará de hacer los calculos necesarios mostrando graficas para su mejor entendimiento.
 
 ### Autor 
 Emmanuel Torres Sirangua
